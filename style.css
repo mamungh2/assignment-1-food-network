@@ -1,10 +1,10 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-}
-* {
-    box-sizing: border-box;
 }
 h1 {
     font-size: 35px;
@@ -19,8 +19,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 100% 100%;   
 }
-.middle-banner {
-    
+.middle-banner {    
     background-image: url(images/bg-middlebanner.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;   
@@ -30,8 +29,8 @@ h1 {
     align-items: center;
 }
 .half-width {
-    width: 50%;
-    margin: 4%;
+    width: 40%;
+    margin: 5%;
 }
 .link-button {
     color: white;
@@ -39,4 +38,29 @@ h1 {
     text-decoration: none;
     padding: 10px 40px;
     border-radius: 20px;
+}
+#myrecipies {
+    text-align: center;
+    padding: 0 30%;
+    margin-top: 5%;
+}
+.flexible-recipies {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.third-width {
+    width: 23%;
+    margin-top: 3%;
+    margin-left: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px gray;   
+}
+.recipies-img {
+    text-align: center;
+    width: 85%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
