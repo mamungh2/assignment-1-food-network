@@ -17,7 +17,13 @@ h1 {
 .top-banner {
     background-image: url(images/bg-topbanner.jpg);
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: 100% 100%;   
+}
+.middle-banner {
+    
+    background-image: url(images/bg-middlebanner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
 }
 .flexible-container {
     display: flex;
