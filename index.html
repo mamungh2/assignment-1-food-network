@@ -10,7 +10,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body>          
+    <nav>       
+        <a href=""><img id="logohome" src="images/logo3.png" alt="logo image"></a>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#recipies">RECIPES</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#middle-banner">ABOUT ME</a></li>
+            <li><a href="#subscribe-area">SUBSCRIBE</a></li>
+        </ul>
+        <form action="#" id="form1">
+            <input type="search" id="search">
+            <input type="button" id="searchbutton" value="SEARCH">
+        </form>
+    </nav>
+        
+
     <section class="top-banner flexible-container">
         <div class="half-width">
             <h1><span class="red-color">Eat</span> healthy</h1>
@@ -20,14 +37,14 @@
             <a class="link-button" href="order.html" target="_blank">Order Food</a>
         </div>
         <div class="half-width">
-            <img src="images/person1.png" alt="person image">
+            <img src="images/person1.png" alt="person1 image">
         </div>
     </section>
 
 
-    <section class="middle-banner flexible-container">
+    <section class="middle-banner flexible-container" id="middle-banner">
         <div class="half-width">
-            <img src="images/person2.png" alt="">
+            <img src="images/person2.png" alt="person2 image">
         </div>
         <div class="half-width">
             <h2>About Me</h2>
@@ -37,15 +54,15 @@
     </section>
 
 
-    <section>
-        <div id="myrecipies">
+    <section  id="recipies">
+        <div id="recipetext">
             <h2>My Recipies</h2>
             <p>I have many latest recipes to share you. You can try it for home. This food are very healthy and delicious.</p>
         </div>
         <div class="flexible-recipies">
             <div class="third-width">
                 <div>
-                    <img class="recipies-img" src="images/recipe1.jpg" alt="">
+                    <img class="recipies-img" src="images/recipe1.jpg" alt="recipies image">
                 </div>
                 <div>
                     <h3>Classic Dinner Meat Loaf</h3>
@@ -54,7 +71,7 @@
             </div >
             <div class="third-width">
                 <div>
-                    <img class="recipies-img" src="images/recipe2.png" alt="">
+                    <img class="recipies-img" src="images/recipe2.png" alt="recipies image">
                 </div>
                 <div>
                     <h3>KIng Chicken Casserole</h3>
@@ -63,7 +80,7 @@
             </div> 
             <div class="third-width">
                 <div>
-                    <img class="recipies-img" src="images/recipe3.png" alt="">
+                    <img class="recipies-img" src="images/recipe3.png" alt="recipies image">
                 </div>
                 <div>
                     <h3>Cucumber & Avocado Salad</h3>
@@ -72,5 +89,24 @@
             </div>          
         </div>   
     </section>
+
+
+    <section id="subscribe-area" >
+        <h2>Never Miss A Post !</h2>
+        <p>Signup for free and be the first to get noticed on new updates</p>
+        <form action="#">
+            <label for="yourname">Your Name</label>
+            <input type="text" id="yourname"></form><br>
+            <label for="youremail">Your Email</label>
+            <input type="text" id="youremail"><br><br>
+            <input type="submit" id="subscribe-button" value="SUBCRIBE">
+        </form>
+    </section>
+
+
+    <footer>
+        <h2><span class="red-color">FOOD</span> <span id="green-color" >NETWORK</span></h2>
+        <p>Eat healthy to live healthy. Live healthy to live happy</p>
+    </footer>
 </body>
 </html>
